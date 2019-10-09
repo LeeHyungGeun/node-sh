@@ -1,6 +1,6 @@
 {
   "name": "node-shell-async",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Node Shell Asynch",
   "main": "src/lib/node-shell-async.js",
   "scripts": {
