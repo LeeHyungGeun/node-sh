@@ -1,26 +1,27 @@
 {
-  "name": "node-sh",
+  "name": "node-shell-async",
   "version": "0.0.1",
-  "description": "Node Shell",
-  "main": "src/lib/node-sh.js",
+  "description": "Node Shell Asynch",
+  "main": "src/lib/node-shell-async.js",
   "scripts": {
     "dev": "NODE_ENV=development ./node_modules/.bin/rollup -w -c",
     "dev:examples": "nodemon ./examples/index.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/LeeHyungGeun/node-sh.git"
+    "url": "git+https://github.com/LeeHyungGeun/node-shell-async.git"
   },
   "keywords": [
     "shell",
-    "node-shell"
+    "node-shell",
+    "node-shell-async"
   ],
   "author": "LeeHyungGeun <lhg4031@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/LeeHyungGeun/node-sh/issues"
+    "url": "https://github.com/LeeHyungGeun/node-shell-async/issues"
   },
-  "homepage": "https://github.com/LeeHyungGeun/node-sh#readme",
+  "homepage": "https://github.com/LeeHyungGeun/node-shell-async#readme",
   "devDependencies": {
     "@babel/cli": "^7.4.4",
     "@babel/core": "^7.4.4",

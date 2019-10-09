@@ -6,7 +6,7 @@ import commonjs from 'rollup-plugin-commonjs'
 import replace from 'rollup-plugin-replace'
 // import memory from 'rollup-plugin-memory'
 
-const pkgName = 'node-sh'
+const pkgName = 'node-shell-async'
 const pkg = {
   all: `dist/${pkgName}.js`,
   main: `dist/${pkgName}.cjs.js`,
@@ -16,9 +16,9 @@ const pkg = {
 
 export default [
   {
-    input: 'src/lib/node-sh.js',
+    input: 'src/lib/node-shell-async.js',
     output: {
-      name: 'nodeShell',
+      name: 'nodeShellAsync',
       // file: pkg.browser,
       file: pkg.all,
       sourcemap: true,
@@ -83,7 +83,7 @@ export default [
     ]
   },
   // {
-	// 	input: 'src/lib/node-sh.js',
+	// 	input: 'src/lib/node-shell-async.js',
 	// 	// external: [],
 	// 	output: [
 	// 		{ file: pkg.main, format: 'cjs' },
