@@ -17,6 +17,9 @@ const pkg = {
 export default [
   {
     input: 'src/lib/node-shell-async.js',
+    // external: [
+    //   'node-cmd'
+    // ],
     output: {
       name: 'nodeShellAsync',
       // file: pkg.browser,
@@ -40,6 +43,7 @@ export default [
           'jsnext'
         ],
         browser: true,
+        preferBuiltins: true, // Disable warning for over local alternative at 'child_process'
       }),
       commonjs(),
       // eslint(),

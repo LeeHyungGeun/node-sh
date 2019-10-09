@@ -17,7 +17,7 @@
   ],
   "plugins": [
     ["import", {
-      "libraryName": "node-sh"
+      "libraryName": "node-shell-async"
     }],
     ["transform-runtime", {
       "regenerator": true,
